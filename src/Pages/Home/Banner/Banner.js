@@ -41,7 +41,7 @@ const Banner = () => {
                     alt="Third slide"
                     />
                     <Carousel.Caption>
-                        <h3 className="banner-text">All progress takes place outside the comfort zone.</h3>
+                        <h3 className="banner-text">ALL PROGRESS TAKES PLACE OUTSIDE THE COMFORT ZONE</h3>
                         <p>Things may come to those who wait, but only the things left by those who hustle.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
