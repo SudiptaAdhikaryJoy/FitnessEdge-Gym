@@ -1,0 +1,22 @@
+/* footer container styles */
+.container1 {
+    background-color: #6495ed;
+    width: 100%;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.input-container{
+    display: flex;
+
+}
+
+.btn-regular2{
+    margin-left: 2px;
+    background-color: #6495ed;
+    color: #fff;
+    border-radius: 3px;
+}
