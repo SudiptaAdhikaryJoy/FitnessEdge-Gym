@@ -9,6 +9,9 @@ import Info from './Pages/Info/Info';
 import Header from './Pages/Shared/Header/Header';
 import AuthProvider from './contexts/AuthProvider';
 import Login from './Pages/Login/Login/Login';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import Products from './Pages/Products/Products';
+import About from './Pages/About/About';
 
 function App() {
   return (
@@ -26,9 +29,18 @@ function App() {
                 <Route path="/login">
                   <Login></Login>
                 </Route>
-                <Route path="/info/:infoId">
-                  <Info></Info>
+                <Route path="/service">
+                  <Services></Services>
                 </Route>
+                <Route path="/about">
+                  <About></About>
+                </Route>
+                <PrivateRoute path="/info/:infoId">
+                  <Info></Info>
+                </PrivateRoute>
+                <PrivateRoute path="/products/:productInfo">
+                  <Products></Products>
+                </PrivateRoute>
                 <Route path="*">
                   <NotFound></NotFound>
                 </Route>

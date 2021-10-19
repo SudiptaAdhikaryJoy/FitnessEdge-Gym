@@ -15,11 +15,12 @@ const Services = () => {
             <Row xs={1} md={2} lg={3} className="g-4">
             {
                 services.map(service => <Service
-                    key={service.map}
+                    key={service.id}
                     service={service}
                 ></Service>)
             }
             </Row>
+            
         </div>
     );
 };

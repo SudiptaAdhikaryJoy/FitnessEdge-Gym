@@ -3,7 +3,7 @@ import fitness from '../../images/about/fitness-1.jpeg';
 import './About.css';
 const About = () => {
     return (
-        <div className="main-container mt-5">
+        <div id="#about" className="main-container mt-5">
                 <h2>Know us</h2>
             <div className="container gap-5">
                 <div className="img-container">

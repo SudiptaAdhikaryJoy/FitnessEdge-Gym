@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+
+import { useState } from 'react';
 import { useParams } from 'react-router';
 
-const Info = ({service}) => {
-    const {infoId, name} = useParams();
-    // const {name , img} = useState();
+const Info = ({Service}) => {
+    const {infoId, productInfo} = useParams();
+    const {name , img} = useState();
 
     return (
         <div>
