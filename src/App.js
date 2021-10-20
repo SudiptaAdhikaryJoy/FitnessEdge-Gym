@@ -12,6 +12,7 @@ import Login from './Pages/Login/Login/Login';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Products from './Pages/Products/Products';
 import About from './Pages/About/About';
+import Instructors from './Pages/Home/Instructors/Instructors';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
                 </Route>
                 <Route path="/services">
                   <Services></Services>
+                </Route>
+                <Route path="/instructors">
+                  <Instructors></Instructors>
                 </Route>
                 <Route path="/about">
                   <About></About>

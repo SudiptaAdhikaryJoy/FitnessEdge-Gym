@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="container1">
+        <div className="container1  sticky-bottom mt-2">
             <div className="footer-container">
                 <div>
                     <h1>Get Updates On Your Probably Want To Know About In Your Inbox</h1>

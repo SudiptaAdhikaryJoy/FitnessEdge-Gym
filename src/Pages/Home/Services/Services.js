@@ -9,9 +9,10 @@ const Services = () => {
         .then(res => res.json())
         .then(data => setServices(data));
     },[])
+
     return (
         <div className="mt-5">
-            <h2>This is Services</h2>
+            <h2>Our Services</h2>
             <Row xs={1} md={2} lg={3} className="g-4">
             {
                 services.map(service => <Service
@@ -20,7 +21,6 @@ const Services = () => {
                 ></Service>)
             }
             </Row>
-            
         </div>
     );
 };
